@@ -13,7 +13,7 @@ Widget getMap() {
     //class to create a div element
 
     final mapOptions = MapOptions()
-      ..zoom = 11
+      ..zoom = 7
       ..tilt = 90
       ..center = latLang;
     final elem = DivElement()
