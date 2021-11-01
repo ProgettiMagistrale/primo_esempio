@@ -7,7 +7,7 @@ class MapScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("Google Maps."),
+        title: Text("Google Maps"),
       ),
       body: Container(child: getMap()),
     );
