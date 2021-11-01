@@ -9,7 +9,7 @@ Widget getMap() {
   //creates a webview in dart
   //ignore: undefined_prefixed_name
   ui.platformViewRegistry.registerViewFactory(htmlId, (int viewId) {
-    final latLang = LatLng(12.9007616, 77.6568832);
+    final latLang = LatLng(41.20310093888131, 16.601106762820553);
     //class to create a div element
 
     final mapOptions = MapOptions()
@@ -28,7 +28,7 @@ Widget getMap() {
       ..map = map
       ..title = 'My position');
     Marker(MarkerOptions()
-      ..position = LatLng(12.9557616, 77.7568832)
+      ..position = LatLng(41.89332, 12.482932)
       ..map = map
       ..title = 'My position');
     return elem;
